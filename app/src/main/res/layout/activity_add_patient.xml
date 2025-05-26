@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_01"
+    android:orientation="vertical"
+    tools:context=".AddPatientActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_marginTop="120dp"
+        android:text="Ro'yxatga olish"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Bemorni Ismi"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp"
+        android:text="Bemorni Familiyasi"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:text="Shifokorni ismi"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/doctor_first_name"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Shifokorni familiyasi"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/doctor_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/add_patient_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cornerRadius="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Ro'yxatga olish"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#373434"
+        android:textColor="@color/white"
+        android:layout_marginBottom="150dp"
+        android:padding="14dp" />
+
+</LinearLayout>
